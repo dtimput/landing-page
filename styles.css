@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: gold;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.headerlink{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+.middle1{
+    flex-grow: 1;
+}
+
+.imagetitle{
+    text-align: center;
+}
+
+.middle1images{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.middle2{
+    background-color: gray;
+    flex-grow: 1;
+}
+.quote{
+    text-align: center;
+}
+
+.footer1{
+    flex-grow: 1;
+}
+
+.signupbox{
+    text-align: center;
+}
+.footer2{
+    flex-grow: 1;
+    background-color: brown;
+    text-align: center;
+}
