@@ -1,19 +1,84 @@
+html{
+    height: 100%;
+}
+
 body{
     display: flex;
     flex-direction: column;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
 .header{
-    background-color: gold;
-    justify-content: space-between;
-    flex-grow: 1;
+    background-color: #A08A58;
+    display: flex;
+    flex-direction: column;
 }
+
+.header-top{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 300px;
+    flex: 0;
+    margin: 0;
+}
+
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+
+.header-bottom-left{
+    list-style-type: none;
+}
+
+.hl.one{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hl.two{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.petition{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: none;
+}
+
+.teamimg{
+    height: auto;
+    width: 400px;
+}
+
+.logo{
+    height: auto;
+    width: 50px;
+}
+
 .headerlink{
     display: flex;
     list-style-type: none;
-    justify-content: flex-end;
+    gap: 10px;
 }
 .middle1{
-    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .imagetitle{
@@ -23,26 +88,94 @@ body{
 .middle1images{
     display: flex;
     list-style-type: none;
-    justify-content: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    flex: 1;
+}
+
+.middle1imagesdesc{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    gap: 50px;
+    text-align: center;
+}
+
+.middle1imagesitems{
+    height: auto;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+
 }
 
 .middle2{
-    background-color: gray;
-    flex-grow: 1;
+    background-color: #E5E7EB;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
     text-align: center;
 }
 
 .footer1{
-    flex-grow: 1;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .signupbox{
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 30px;
+    gap: 150px;
 }
+
+.subitem1{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+.subitem2{
+    color: white;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.signupboxitems{
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2;
+    border-color: white;
+    box-shadow: none;
+    outline: none;
+}
+
 .footer2{
-    flex-grow: 1;
-    background-color: brown;
+    flex: 0;
+    background-color: #A08A58;
     text-align: center;
 }
